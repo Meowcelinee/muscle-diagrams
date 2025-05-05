@@ -11,9 +11,16 @@ header {
     display: flex;
     justify-content: center;
     a {
-        color: #a00 !important;
+        color: #a00;
         margin: 0px 10px;
     }
+}
+
+.back {
+    color: #a00;
+    margin: 10px;
+    font-size: larger;
+    font-weight: 600;
 }
 
 .diagram-container {
@@ -21,7 +28,18 @@ header {
 }
 
 .diagram-img {
-    width: 50%;
+    width: 60%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+
+    .ans-input {
+        margin: 4px auto;
+        width: 30%;
+    }
 }
 
 @media (max-width: 650px) {
@@ -35,5 +53,18 @@ header {
 
     .diagram-img {
         width: 100%;
+    }
+
+    form {
+        width: 100%;
+
+        label {
+            margin: 0 5px;
+            width: 50%;
+        }
+
+        .ans-input {
+            width: 100%;
+        }
     }
 }
