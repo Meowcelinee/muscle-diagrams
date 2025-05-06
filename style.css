@@ -40,6 +40,14 @@ form {
         margin: 4px auto;
         width: 30%;
     }
+
+    #incorrect {
+        font-weight: 800;
+
+        li {
+            font-weight: 400;
+        }
+    }
 }
 
 @media (max-width: 650px) {
